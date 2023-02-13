@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.game-board ul {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.game-board ul li {
+    list-style: none;
+    flex-basis: 32.31%;
+    width: 30px;
+    height: 75px;
+    border: solid thin black;
+    background-color: white;
+}
